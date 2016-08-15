@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Funções">
+        <menu>
+        <group android:checkableBehavior="single">
+            <item android:id="@+id/nav_lampadas"
+                android:icon="@mipmap/lampada"
+                android:title="Lâmpadas" />
+            <item android:id="@+id/nav_tomadas"
+                android:icon="@mipmap/tomada"
+                android:title="Tomadas" />
+            <item android:id="@+id/nav_televisao"
+                android:icon="@mipmap/televisao"
+                android:title="Televisão" />
+            <item android:id = "@+id/nav_cameras"
+                android:icon="@mipmap/cameras"
+                android:title="Câmeras" />
+            <item android:id = "@+id/nav_sensores"
+                android:icon="@mipmap/sensores"
+                android:title="Sensores" />
+            <item android:id = "@+id/nav_programar"
+                android:icon="@mipmap/programar"
+                android:title="Programar" />
+        </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Configurações">
+        <menu>
+            <item android:id = "@+id/nav_configuracoes"
+                android:icon="@mipmap/configuracoes"
+                android:title="Configurar" />
+        </menu>
+        </item>
+
+
+</menu>

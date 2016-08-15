@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EnergySaver</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="lampadas">Lâmpadas</string>
+    <string name="tomadas">Tomadas</string>
+    <string name="televisao">Televisão</string>
+    <string name="cameras">Câmeras</string>
+    <string name="sensores">Sensores</string>
+    <string name="programar">Programar</string>
+
+
+
+    <string name="action_settings">Settings</string>
+</resources>
