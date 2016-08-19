@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="65dp"
             android:text="Tomada 1"
-            android:id="@+id/switch10"
+            android:id="@+id/lampswitch1"
             android:layout_weight="0.10"
             android:checked="false"
             android:layout_marginRight="20dp" />
@@ -54,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="65dp"
             android:text="Tomada 1"
-            android:id="@+id/switch11"
+            android:id="@+id/lampswitch2"
             android:layout_weight="0.10"
             android:checked="false"
             android:layout_marginRight="20dp" />
@@ -78,7 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="65dp"
             android:text="Tomada 1"
-            android:id="@+id/switch12"
+            android:id="@+id/lampswitch3"
             android:layout_weight="0.10"
             android:checked="false"
             android:layout_marginRight="20dp" />
@@ -102,7 +102,7 @@
             android:layout_width="wrap_content"
             android:layout_height="65dp"
             android:text="Tomada 1"
-            android:id="@+id/switch13"
+            android:id="@+id/lampswitch4"
             android:layout_weight="0.10"
             android:checked="false"
             android:layout_marginRight="20dp" />
