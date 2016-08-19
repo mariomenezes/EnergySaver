@@ -1,4 +1,4 @@
-package com.mmc.energysaver.Fragments;
+package com.mmc.energysaver.Communication;
 
 /**
  * Created by mario on 19/08/16.
