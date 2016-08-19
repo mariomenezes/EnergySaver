@@ -4,62 +4,107 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/primary_dark_material_light">
+    android:background="@color/primary_dark_material_light"
+    android:weightSum="1">
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:layout_gravity="center_horizontal" />
-
-    <Switch
-        android:layout_width="281dp"
         android:layout_height="wrap_content"
-        android:text="Lampada 1"
-        android:id="@+id/switch3"
         android:layout_gravity="center_horizontal"
-        android:checked="false"
-        android:elegantTextHeight="true"
-        android:textOn="ON"
-        android:textOff="OFF" />
+        android:layout_weight="0.15" />
 
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Lampada 2"
-        android:id="@+id/switch4"
-        android:layout_gravity="center_horizontal"
-        android:checked="false" />
-
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Lâmapda 3"
-        android:id="@+id/switch5"
-        android:layout_gravity="center_horizontal"
-        android:checked="false" />
-
-    <ToggleButton
-        android:id="@+id/toggleButton1"
-        android:layout_width="88dp"
-        android:layout_height="79dp"
-        android:drawableTop="@android:drawable/ic_menu_info_details"
-        android:gravity="center"
-        android:textOff=""
-        android:textOn=""
-        android:textSize="0dp"
-        android:alpha="500" />
-
-    <ToggleButton
-        android:id="@+id/toggleButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:checked="false" />
-
-    <TextView
-        android:id="@+id/textView2"
+    <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Lâmpadas"
-        android:textStyle="bold" />
+        android:layout_height="wrap_content">
 
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView7"
+            android:layout_weight="0.10"
+            android:src="@mipmap/tomada"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="8dp" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="Tomada 1"
+            android:id="@+id/switch10"
+            android:layout_weight="0.10"
+            android:checked="false"
+            android:layout_marginRight="20dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView8"
+            android:layout_weight="0.10"
+            android:src="@mipmap/tomada"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="8dp" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="Tomada 1"
+            android:id="@+id/switch11"
+            android:layout_weight="0.10"
+            android:checked="false"
+            android:layout_marginRight="20dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView9"
+            android:layout_weight="0.10"
+            android:src="@mipmap/tomada"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="8dp" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="Tomada 1"
+            android:id="@+id/switch12"
+            android:layout_weight="0.10"
+            android:checked="false"
+            android:layout_marginRight="20dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView10"
+            android:layout_weight="0.10"
+            android:src="@mipmap/tomada"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="8dp" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="Tomada 1"
+            android:id="@+id/switch13"
+            android:layout_weight="0.10"
+            android:checked="false"
+            android:layout_marginRight="20dp" />
+    </TableRow>
 </LinearLayout>
