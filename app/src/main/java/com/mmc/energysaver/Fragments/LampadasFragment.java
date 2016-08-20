@@ -16,6 +16,7 @@ import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.ToggleButton;
 
+import com.mmc.energysaver.Communication.ArquinoPostRequest;
 import com.mmc.energysaver.R;
 
 public class LampadasFragment extends Fragment {
@@ -50,12 +51,16 @@ public class LampadasFragment extends Fragment {
         tomada3 = (Switch) getView().findViewById(R.id.lampswitch3);
         tomada4 = (Switch) getView().findViewById(R.id.lampswitch4);
 
+        final ArquinoPostRequest arduino = new ArquinoPostRequest();
+
         tomada1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean bChecked) {
                 if (bChecked) {
+                    arduino.makePostRequest("L1ON");
                     //textView2.setText(switchOn);
                 } else {
+                    arduino.makePostRequest("L1OFF");
                     //textView2.setText(switchOff);
                 }
             }
@@ -65,9 +70,9 @@ public class LampadasFragment extends Fragment {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean bChecked) {
                 if (bChecked) {
-                    //textView2.setText(switchOn);
+                    arduino.makePostRequest("L2ON");
                 } else {
-                    //textView2.setText(switchOff);
+                    arduino.makePostRequest("L2OFF");
                 }
             }
         });
@@ -76,9 +81,9 @@ public class LampadasFragment extends Fragment {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean bChecked) {
                 if (bChecked) {
-                    //textView2.setText(switchOn);
+                    arduino.makePostRequest("L3ON");
                 } else {
-                    //textView2.setText(switchOff);
+                    arduino.makePostRequest("L3OFF");
                 }
             }
         });
@@ -87,9 +92,9 @@ public class LampadasFragment extends Fragment {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean bChecked) {
                 if (bChecked) {
-                    //textView2.setText(switchOn);
+                    arduino.makePostRequest("L4ON");
                 } else {
-                    //textView2.setText(switchOff);
+                    arduino.makePostRequest("L4OFF");
                 }
             }
         });
