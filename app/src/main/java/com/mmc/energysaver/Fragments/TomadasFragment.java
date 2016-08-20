@@ -29,7 +29,7 @@ public class TomadasFragment extends Fragment{
         tomada4 = (Switch) getView().findViewById(R.id.lampswitch4);
 
         //final static  ArquinoPostRequest arduino;
-        final ArquinoPostRequest arduino = new ArquinoPostRequest();
+         final ArquinoPostRequest arduino = new ArquinoPostRequest();
 
         tomada1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
