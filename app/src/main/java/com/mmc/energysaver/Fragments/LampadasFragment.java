@@ -3,19 +3,14 @@ package com.mmc.energysaver.Fragments;
 /**
  * Created by mario on 12/08/16.
  */
-import android.graphics.drawable.Drawable;
+
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.text.SpannableString;
-import android.text.Spanned;
-import android.text.style.ImageSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.Switch;
-import android.widget.ToggleButton;
-
 import com.mmc.energysaver.Communication.ArquinoPostRequest;
 import com.mmc.energysaver.R;
 
