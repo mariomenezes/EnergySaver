@@ -24,7 +24,7 @@
             android:layout_height="50dp"
             android:id="@+id/imageView3"
             android:layout_weight="0.10"
-            android:src="@mipmap/lampada"
+            android:src="@mipmap/lampadacolor"
             android:layout_marginLeft="-40dp"
             android:layout_marginTop="8dp" />
 
@@ -49,7 +49,7 @@
             android:layout_height="50dp"
             android:id="@+id/imageView4"
             android:layout_weight="0.10"
-            android:src="@mipmap/lampada"
+            android:src="@mipmap/lampadacolor"
             android:layout_marginLeft="-40dp"
             android:layout_marginTop="8dp" />
 
@@ -73,7 +73,7 @@
             android:layout_height="50dp"
             android:id="@+id/imageView5"
             android:layout_weight="0.10"
-            android:src="@mipmap/lampada"
+            android:src="@mipmap/lampadacolor"
             android:layout_marginLeft="-40dp"
             android:layout_marginTop="8dp" />
 
@@ -97,7 +97,7 @@
             android:layout_height="50dp"
             android:id="@+id/imageView6"
             android:layout_weight="0.10"
-            android:src="@mipmap/lampada"
+            android:src="@mipmap/lampadacolor"
             android:layout_marginLeft="-40dp"
             android:layout_marginTop="8dp" />
 
