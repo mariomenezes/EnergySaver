@@ -22,14 +22,14 @@
             android:layout_height="50dp"
             android:id="@+id/imageView7"
             android:layout_weight="0.10"
-            android:src="@mipmap/tomadacolor"
+            android:src="@mipmap/lampadacolor"
             android:layout_marginLeft="-40dp"
             android:layout_marginTop="8dp" />
 
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="65dp"
-            android:text="Tomada 1"
+            android:text="Lâmpada 1"
             android:id="@+id/lampswitch1"
             android:layout_weight="0.10"
             android:checked="false"
@@ -46,14 +46,14 @@
             android:layout_height="50dp"
             android:id="@+id/imageView8"
             android:layout_weight="0.10"
-            android:src="@mipmap/tomadacolor"
+            android:src="@mipmap/lampadacolor"
             android:layout_marginLeft="-40dp"
             android:layout_marginTop="8dp" />
 
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="65dp"
-            android:text="Tomada 1"
+            android:text="Lâmpada 2"
             android:id="@+id/lampswitch2"
             android:layout_weight="0.10"
             android:checked="false"
@@ -70,14 +70,14 @@
             android:layout_height="50dp"
             android:id="@+id/imageView9"
             android:layout_weight="0.10"
-            android:src="@mipmap/tomadacolor"
+            android:src="@mipmap/lampadacolor"
             android:layout_marginLeft="-40dp"
             android:layout_marginTop="8dp" />
 
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="65dp"
-            android:text="Tomada 1"
+            android:text="Lâmpada 3"
             android:id="@+id/lampswitch3"
             android:layout_weight="0.10"
             android:checked="false"
@@ -94,14 +94,14 @@
             android:layout_height="50dp"
             android:id="@+id/imageView10"
             android:layout_weight="0.10"
-            android:src="@mipmap/tomadacolor"
+            android:src="@mipmap/lampadacolor"
             android:layout_marginLeft="-40dp"
             android:layout_marginTop="8dp" />
 
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="65dp"
-            android:text="Tomada 1"
+            android:text="Lâmpada 4"
             android:id="@+id/lampswitch4"
             android:layout_weight="0.10"
             android:checked="false"

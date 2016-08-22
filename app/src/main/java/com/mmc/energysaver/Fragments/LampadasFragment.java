@@ -41,10 +41,12 @@ public class LampadasFragment extends Fragment {
         button.setTextOn(content);
         button.setTextOff(content);*/
 
-        tomada1 = (Switch) getView().findViewById(R.id.lampswitch1);
-        tomada2 = (Switch) getView().findViewById(R.id.lampswitch2);
-        tomada3 = (Switch) getView().findViewById(R.id.lampswitch3);
-        tomada4 = (Switch) getView().findViewById(R.id.lampswitch4);
+        View view = inflater.inflate(R.layout.lampadas, container, false);
+
+        tomada1 = (Switch) view.findViewById(R.id.lampswitch1);
+        tomada2 = (Switch) view.findViewById(R.id.lampswitch2);
+        tomada3 = (Switch) view.findViewById(R.id.lampswitch3);
+        tomada4 = (Switch) view.findViewById(R.id.lampswitch4);
 
         final ArquinoPostRequest arduino = new ArquinoPostRequest();
 
