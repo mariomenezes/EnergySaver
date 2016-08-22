@@ -11,6 +11,10 @@
     <string name="sensores">Sensores</string>
     <string name="programar">Programar</string>
     <string name="pick_time">pick_time</string>
+    <string name="time_pick">Pick the time and press save button</string>
+    <string name="time_save">Save</string>
+    <string name="time_selected"></string>
+    <string name="time_current">The Time is:</string>
 
 
 

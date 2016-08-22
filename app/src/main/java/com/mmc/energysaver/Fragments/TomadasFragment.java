@@ -25,10 +25,10 @@ public class TomadasFragment extends Fragment{
 
         View view = inflater.inflate(R.layout.tomadas, container, false);
 
-        tomada1 = (Switch) view.findViewById(R.id.lampswitch1);
-        tomada2 = (Switch) view.findViewById(R.id.lampswitch2);
-        tomada3 = (Switch) view.findViewById(R.id.lampswitch3);
-        tomada4 = (Switch) view.findViewById(R.id.lampswitch4);
+        tomada1 = (Switch) view.findViewById(R.id.tomadaswitch6);
+        tomada2 = (Switch) view.findViewById(R.id.tomadaswitch7);
+        tomada3 = (Switch) view.findViewById(R.id.tomadaswitch8);
+        tomada4 = (Switch) view.findViewById(R.id.tomadaswitch9);
 
         //final static  ArquinoPostRequest arduino;
          final ArquinoPostRequest arduino = new ArquinoPostRequest();
